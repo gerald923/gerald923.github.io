@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina Personal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mi Página</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Acerca de mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <section id="about">
+            <h1>Acerca de mí</h1>
+            <p>Hola Me llamo Gerald, soy un adolescente de 18 años y vivo en la hermosa ciudad de Arequipa, Perú. Arequipa, también conocida como la "Ciudad Blanca" por sus edificios de sillar, es un lugar lleno de historia, cultura y paisajes impresionantes, y me siento afortunado de llamarla mi hogar.</p>
+            <h2>Mis Pasatiempos e Intereses</h2>
+            <p>Soy una persona curiosa y siempre estoy buscando aprender cosas nuevas. Algunos de mis pasatiempos favoritos son:</p>
+            <ul>
+                <li><strong>Gastronomía:</strong> La comida arequipeña es conocida en todo Perú, y me gusta probar diferentes platos típicos como el rocoto relleno, el adobo, y la ocopa. A veces, incluso trato de cocinar algunas recetas en casa. Mi plato favorito es la milanesa.</li>
+                <div class="text-center">
+                    <img src="milanesa.webp" alt="comida 1"class="responsive-img">
+                <li><strong>Deportes:</strong> Soy muy activo y me gusta practicar deportes. Mi deporte favorito es el basquetball, y suelo jugar con mis amigos cada sabado que salimos.</li>
+                <div class="text-center">
+                    <img src="basque.PNG" alt="deporte"class="responsive-img">
+                <li><strong>Programación:</strong> Programación: Un poco de mi conocimiento en leguajes de programacion que llevo aprendiendo son: PYTHON-C++-HTML-JS</li>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <img src="pythos.gif" alt="Python"class="responsive-img">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="c++.gif" alt="C++"class="responsive-img">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <img src="ht.gif" alt="HTML"class="responsive-img">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="js.gif" alt="JavaScript"class="responsive-img">
+                    </div>
+                </div>
+            </ul>
+            <h2>Mi Educación y Aspiraciones</h2>
+            <p>Actualmente, estudio en la Universidad Nacional de San Agustin de Arequipa UNSA. Estudio Ciencia de la computacion, y sueño algún día poder contribuir al desarrollo de mi ciudad y mi país.</p>
+            <div class="text-center">
+            <img src="unsa.jpeg" alt="UNSA"class="responsive-img">
+        </section>
+        <section id="projects" class="mt-5">
+            <h2>Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="project1.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">Descripción breve del proyecto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="project2.jpg" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">Descripción breve del proyecto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="mt-5">
+            <h2>Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

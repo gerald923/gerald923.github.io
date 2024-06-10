@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px;
+}
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#about p {
+    text-align: justify;
+}
+#projects .card img {
+    height: 200px;
+    object-fit: cover;
+}
+#contact .form-group {
+    margin-bottom: 15px;
+}
